@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file.
 
+## [26.6.3] - 2026-06-18
+
+### 📚 Documentation
+
+- Update pull request template instructions
+
+### ⚙️ Miscellaneous Tasks
+
+- Ignore agent plan directory
+
 ## [26.6.2] - 2026-06-18
 
 ### 🚀 Features
@@ -11,6 +21,10 @@ All notable changes to this project will be documented in this file.
 ### 🐛 Bug Fixes
 
 - Update processors to support list instead of item
+
+### ⚙️ Miscellaneous Tasks
+
+- Release 26.6.2
 
 ## [26.6.1] - 2026-06-12
 
