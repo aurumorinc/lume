@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [26.6.4] - 2026-06-19
+
+### ⚙️ Miscellaneous Tasks
+
+- Add remove_processors_meta to structlog
+
 ## [26.6.3] - 2026-06-18
 
 ### 📚 Documentation
@@ -11,6 +17,7 @@ All notable changes to this project will be documented in this file.
 ### ⚙️ Miscellaneous Tasks
 
 - Ignore agent plan directory
+- Release 26.6.3
 
 ## [26.6.2] - 2026-06-18
 
