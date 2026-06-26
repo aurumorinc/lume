@@ -1,8 +1,14 @@
-# Changelog v3.0.1
+# Changelog v4.0.0
 
 ## Breaking Changes
 
-* **Renaming of Windmill Environment Variables**
-  All environment variables prefixed with `WM_` have been renamed to use the `WINDMILL_` prefix to align with updated naming conventions.
-  * **Migration Guide:** Update your deployment configurations (e.g., Docker Compose, Kubernetes ConfigMaps, or `.env` files) by replacing the `WM_` prefix with `WINDMILL_` for all Windmill-related settings.
+* **Environment Variable Prefix Migration**
+  All environment variables previously prefixed with `WM_` have been renamed to `WINDMILL_` to standardize configuration naming conventions.
+  * **Migration Path:** Update your deployment configuration files (e.g., Kubernetes manifests, Docker Compose, `.env` files) to reflect the new prefix. For example, `WM_API_KEY` must now be set as `WINDMILL_API_KEY`.
   * **Commits:** [ea61e4a](https://github.com/aurumorinc/worldline-python/commit/ea61e4a1), [e0a3fb0](https://github.com/aurumorinc/worldline-python/commit/e0a3fb02)
+
+## Other
+
+* **Version Bump**
+  The package version has been updated to 4.0.0.
+  * **Commit:** [bc5d409](https://github.com/aurumorinc/worldline-python/commit/bc5d409a)
